@@ -17,7 +17,20 @@ Our team has developed a real-time Indian Sign Language Recognition System using
 
 Pre-requisites
 Before running this project, make sure you have following dependencies -
+[https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+
+
 [Pip](https://pypi.org/project/pip/)
-OpenCV
+
+
+
+[OpenCV](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html)
+
+
+
 TensorFlow
+
+
+
 Keras
