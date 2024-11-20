@@ -121,10 +121,11 @@ ________________________________________________________________________________
     o	Overlay the predicted gesture on the live webcam feed using OpenCV's text-drawing functions.
 
 
-##Result
+## Result
 
-![Screenshot 2024-11-20 185523](https://github.com/user-attachments/assets/96a2804e-d562-4346-9001-6aefdf04f51b)   ![Screenshot 2024-11-20 185714](https://github.com/user-attachments/assets/447e7c78-3a39-495b-8167-7f631ecf0a7d)
+<img src="https://github.com/user-attachments/assets/96a2804e-d562-4346-9001-6aefdf04f51b" width=200 height=400 />
 
+![Screenshot 2024-11-20 185714](https://github.com/user-attachments/assets/447e7c78-3a39-495b-8167-7f631ecf0a7d)
 
 ![Screenshot 2024-11-20 190059](https://github.com/user-attachments/assets/5ebf0074-03cb-4051-8530-27d27c08c034)
 
