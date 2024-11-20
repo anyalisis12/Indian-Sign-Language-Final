@@ -17,6 +17,8 @@ Our team has developed a real-time Indian Sign Language Recognition System using
 
 Pre-requisites
 Before running this project, make sure you have following dependencies -
+
+
 [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
 
@@ -29,8 +31,7 @@ Before running this project, make sure you have following dependencies -
 
 
 
-TensorFlow
+[TensorFlow](https://www.tensorflow.org/install)
 
+https://pypi.org/project/keras/
 
-
-Keras
