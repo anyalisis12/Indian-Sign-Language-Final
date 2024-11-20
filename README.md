@@ -43,52 +43,13 @@ https://pypi.org/project/keras/
 
 6]Real-Time Prediction: After training, the model was integrated with a real-time camera feed to recognize hand gestures in real-time. The system captures each frame, preprocesses it, and then feeds it to the trained model for prediction. The predicted sign is displayed instantly, providing immediate feedback.
 
-Using a Convolutional Neural Network (CNN) for real-time gesture recognition involves several steps, from capturing the data to deploying the trained model in a live system. Here’s how you can integrate CNN into your project:
-________________________________________
-1. Data Collection and Preprocessing
-•	Data Collection:
-o	Use your existing script to collect gesture images. Ensure the dataset is diverse, covering various angles, lighting conditions, and hand positions for each gesture.
-•	Label the Data:
-o	Label each gesture image appropriately (e.g., thumbs_up, peace, stop).
-•	Resize and Normalize:
-o	Resize all images to a fixed size (e.g., 64x64 or 128x128 pixels) to match the input dimensions of the CNN.
-o	Normalize pixel values to the range [0, 1] by dividing by 255.
-•	Augment the Data:
-o	Perform augmentations like flipping, rotation, or brightness adjustments to increase dataset variability and improve model robustness.
-________________________________________
-2. Model Design and Training
-•	Design the CNN Architecture:
-o	Build a CNN model with layers such as:
-	Convolutional layers for feature extraction (e.g., edges, textures).
-	Pooling layers for dimensionality reduction.
-	Fully connected layers for classification.
-o	Use activation functions like ReLU in intermediate layers and softmax in the output layer for multi-class classification.
-•	Train the Model:
-o	Use the labeled dataset to train the CNN.
-o	Split the data into training, validation, and testing sets.
-o	Optimize the model using loss functions like categorical_crossentropy and optimizers like Adam or SGD.
-•	Save the Model:
-o	Once trained, save the model to a file (e.g., .h5 or .pt).
-________________________________________
-3. Integration into Real-Time System
-•	Real-Time Webcam Feed:
-o	Use OpenCV to access the webcam feed in real-time, as demonstrated in your project.
-•	Preprocess Input for CNN:
-o	For each frame:
-	Extract the Region of Interest (ROI) (e.g., the green rectangle area).
-	Resize and normalize the ROI to match the CNN's input shape.
-•	Load the Trained Model:
-o	Use a library like TensorFlow/Keras or PyTorch to load the saved CNN model.
-•	Predict Gesture:
-o	Pass the preprocessed ROI to the CNN model.
-o	The model outputs probabilities for each class (gesture), and the class with the highest probability is selected as the predicted gesture.
-•	Display Results:
-o	Overlay the predicted gesture on the live webcam feed using OpenCV's text-drawing functions.
+Group Members:
+
+@github.com/anyalisis12
 
 
+@github.com/preeti109
 
-Group Members
-https://github.com/anyalisis12
-https://github.com/preeti109
-https://github.com/Sayali2408
+
+@github.com/Sayali2408
 
