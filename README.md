@@ -14,3 +14,10 @@ Our team has developed a real-time Indian Sign Language Recognition System using
 5]Model Training: The CNN model was trained on the training set while monitored through the validation set. The model's accuracy improved over epochs as it learned the distinguishing features of each sign. Hyperparameter tuning was performed to optimize the model's performance.                                                                                                                                              
 
 6]Real-Time Prediction: After training, the model was integrated with a real-time camera feed to recognize hand gestures in real-time. The system captures each frame, preprocesses it, and then feeds it to the trained model for prediction. The predicted sign is displayed instantly, providing immediate feedback.
+
+Pre-requisites
+Before running this project, make sure you have following dependencies -
+[Pip](https://pypi.org/project/pip/)
+OpenCV
+TensorFlow
+Keras
