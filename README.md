@@ -23,6 +23,9 @@ All the gestures used in the dataset are in the shown below image with labels.
 
 ![Dataset of Alphabets](https://github.com/user-attachments/assets/87c48716-90d5-47f5-9925-c2b64cc6ffd3)
 
+![Dataset of Numericals](https://github.com/user-attachments/assets/7c61ebfa-52bb-415a-a369-20d7a091a6f6)
+
+
 
 Pre-requisites
 Before running this project, make sure you have following dependencies -
