@@ -1,7 +1,11 @@
 # SignSence- Indian Sign Language Recognition System
-**Welcome to Our Project..!** 
+## **Welcome to Our Project..!** 
+
 Our team has developed a real-time Indian Sign Language Recognition System using Python and Convolutional Neural Networks (CNN). The goal of this project is to recognize various signs made using hand gestures and convert them into text for easy communication, particularly aiding those with speech and hearing impairments. This system captures images, processes them, and uses a deep learning model to predict the sign being shown in real-time. The system was created using custom datasets collected through image capture, ensuring data quality and relevance to Indian Sign Language (ISL) signs.
 
+## Objective
+
+The objective of this project aims to analyze and recognize various alphabets and numbers from a dataset of Indian Sign Language images. The system is designed to work with a diverse dataset that includes images captured under different lighting conditions and various hand orientations and shapes.
                                                                                                                                                                                           
 ## Gestures
 
@@ -26,6 +30,10 @@ Before running this project, make sure you have following dependencies -
 
 [Keras](https://pypi.org/project/keras/)
 
+[NumPy](https://pypi.org/project/numpy/)
+
+## Steps of execution 
+
 1]Collecting Images: The first step involved capturing images of hand signs representing different letters or gestures in Indian Sign Language. Our team set up a simple camera interface using OpenCV to capture thousands of images for each sign. The dataset included multiple samples to ensure model robustness.
 
 2]Data Splitting: Once the images were collected, they were organized and split into training and validation sets to ensure the model could learn effectively and be evaluated accurately on unseen data. This split was necessary to avoid overfitting and assess model performance on new data.                                                                                                                                           
@@ -36,34 +44,33 @@ Before running this project, make sure you have following dependencies -
 5]Model Training: The CNN model was trained on the training set while monitored through the validation set. The model's accuracy improved over epochs as it learned the distinguishing features of each sign. Hyperparameter tuning was performed to optimize the model's performance.                                                                                                                                              
 6]Real-Time Prediction: After training, the model was integrated with a real-time camera feed to recognize hand gestures in real-time. The system captures each frame, preprocesses it, and then feeds it to the trained model for prediction. The predicted sign is displayed instantly, providing immediate feedback.
 
+
 Using a Convolutional Neural Network (CNN) for real-time gesture recognition involves several steps, from capturing the data to deploying the trained model in a live system. Here’s how you can integrate CNN into your project:
-________________________________________
-Using a Convolutional Neural Network (CNN) for real-time gesture recognition involves several steps, from capturing the data to deploying the trained model in a live system. Here’s how you can integrate CNN into your project:
-________________________________________
+________________________________________________________________________________________________________________________
+
 ### 1. Data Collection and Preprocessing
    
 •	Data Collection:
 
     o	Use your existing script to collect gesture images. Ensure the dataset is diverse, covering various angles, lighting conditions, and hand positions for each gesture.
 
-    o	Label each gesture image appropriately (e.g., thumbs_up, peace, stop).
+    o	Label each gesture image appropriately 
 
 •	Resize and Normalize:
 
-    o	Resize all images to a fixed size (e.g., 64x64 or 128x128 pixels) to match the input dimensions of the CNN.
-
-    o	Normalize pixel values to the range [0, 1] by dividing by 255.
+    o	Resize all images to a fixed size to match the input dimensions of the CNN.
 
     o	Perform augmentations like flipping, rotation, or brightness adjustments to increase dataset variability and improve model robustness.
 
-________________________________________
+________________________________________________________________________________________________________________________
+
 ### 2. Model Design and Training
    
 •	Design the CNN Architecture:
 
     o	Build a CNN model with layers such as:
 
-       Convolutional layers for feature extraction (e.g., edges, textures).
+       Convolutional layers for feature extraction.
 
        Pooling layers for dimensionality reduction.
 
@@ -81,9 +88,10 @@ ________________________________________
 
 •	Save the Model:
 
-    o	Once trained, save the model to a file (e.g., .h5 or .pt).
+    o	Once trained, save the model to a file (e.g., .keras).
 
-________________________________________
+________________________________________________________________________________________________________________________
+
 ### 3. Integration into Real-Time System
 
 •	Real-Time Webcam Feed:
@@ -94,7 +102,7 @@ ________________________________________
 
     o	For each frame:
 
-       Extract the Region of Interest (ROI) (e.g., the green rectangle area).
+       Extract the Region of Interest (ROI).
 
        Resize and normalize the ROI to match the CNN's input shape.
 
@@ -113,13 +121,24 @@ ________________________________________
     o	Overlay the predicted gesture on the live webcam feed using OpenCV's text-drawing functions.
 
 
+##Result
+
+![Screenshot 2024-11-20 185523](https://github.com/user-attachments/assets/96a2804e-d562-4346-9001-6aefdf04f51b)   ![Screenshot 2024-11-20 185714](https://github.com/user-attachments/assets/447e7c78-3a39-495b-8167-7f631ecf0a7d)
+
+
+![Screenshot 2024-11-20 190059](https://github.com/user-attachments/assets/5ebf0074-03cb-4051-8530-27d27c08c034)
+
+![Screenshot 2024-11-20 190203](https://github.com/user-attachments/assets/a8dbafb8-78d3-4ce5-9ed7-276563518381)
+
+
+
 ## Group Members:
 
-[Anuradha Bansode](https://github.com/anyalisis12)
+[@Anuradha Bansode](https://github.com/anyalisis12)
 
-[Preeti Dubile](https://github.com/preeti109)
+[@Preeti Dubile](https://github.com/preeti109)
 
-[Sayali Tachale](https://github.com/Sayali2408)
+[@Sayali Tachale](https://github.com/Sayali2408)
 
 
 
