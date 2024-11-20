@@ -13,13 +13,18 @@ Our team has developed a real-time Indian Sign Language Recognition System using
 
 
 ## Pre-requisites
--Before running this project, make sure you have following dependencies -
 
--[Python](https://www.python.org/downloads/)
--[Pip](https://pypi.org/project/pip/)
--[OpenCV](https://pypi.org/project/opencv-python/)
--[TensorFlow](https://www.tensorflow.org/install)
--[Keras](https://pypi.org/project/keras/)
+Before running this project, make sure you have following dependencies -
+
+[Python](https://www.python.org/downloads/)
+
+[Pip](https://pypi.org/project/pip/)
+
+[OpenCV](https://pypi.org/project/opencv-python/)
+
+[TensorFlow](https://www.tensorflow.org/install)
+
+[Keras](https://pypi.org/project/keras/)
 
 1]Collecting Images: The first step involved capturing images of hand signs representing different letters or gestures in Indian Sign Language. Our team set up a simple camera interface using OpenCV to capture thousands of images for each sign. The dataset included multiple samples to ensure model robustness.
 
@@ -110,9 +115,11 @@ ________________________________________
 
 ## Group Members:
 
--[Anuradha Bansode](https://github.com/anyalisis12)
--[Preeti Dubile](https://github.com/preeti109)
--[Sayali Tachale](https://github.com/Sayali2408)
+[Anuradha Bansode](https://github.com/anyalisis12)
+
+[Preeti Dubile](https://github.com/preeti109)
+
+[Sayali Tachale](https://github.com/Sayali2408)
 
 
 
