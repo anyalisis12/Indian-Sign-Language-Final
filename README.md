@@ -123,13 +123,10 @@ ________________________________________________________________________________
 
 ## Result
 
-<img src="https://github.com/user-attachments/assets/96a2804e-d562-4346-9001-6aefdf04f51b" width=200 height=400 />
+<img src="https://github.com/user-attachments/assets/96a2804e-d562-4346-9001-6aefdf04f51b" width=400 height=400 />    <img src="https://github.com/user-attachments/assets/447e7c78-3a39-495b-8167-7f631ecf0a7d" width=400 height=400 />
 
-![Screenshot 2024-11-20 185714](https://github.com/user-attachments/assets/447e7c78-3a39-495b-8167-7f631ecf0a7d)
 
-![Screenshot 2024-11-20 190059](https://github.com/user-attachments/assets/5ebf0074-03cb-4051-8530-27d27c08c034)
-
-![Screenshot 2024-11-20 190203](https://github.com/user-attachments/assets/a8dbafb8-78d3-4ce5-9ed7-276563518381)
+<img src="https://github.com/user-attachments/assets/5ebf0074-03cb-4051-8530-27d27c08c034" width=400 height=400 />     <img src="https://github.com/user-attachments/assets/a8dbafb8-78d3-4ce5-9ed7-276563518381" width=400 height=400 />
 
 
 
